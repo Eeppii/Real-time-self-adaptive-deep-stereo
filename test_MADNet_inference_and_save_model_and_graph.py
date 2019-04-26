@@ -1,6 +1,6 @@
 # dependencies (python3): pip3 install opencv-python, matplotlib, tensorflow==1.9
-# run by:
-# python3 test_inference.py
+# run e.g. by:
+# python test_MADNet_inference_and_save_model_and_graph.py --path_where_to_store_the_model=/home/thomas/master_thesis_code/deep_stereo/deep_stereo/MADNet_model/tf_1dot9_kitti/ --save_the_model=1 --subsample_image_by_2=1
 
 import tensorflow as tf
 import numpy as np
